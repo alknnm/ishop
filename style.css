@@ -1,6 +1,7 @@
 body {
     background-color: rgb(36, 53, 19);
     font-family: 'Amatic SC', cursive;
+    /* display: block; */
 }
 
 .header_nav {
@@ -26,10 +27,67 @@ body {
 
 .main {
     background-color:white;
-    height: 400px;
+    height: 200px;
     border: 5px solid yellow;
     text-align: center;
 }
 
+p {
+    color: black;
+    font-size: 50px;
+}
 
+h1, h2 {
+    color: white;
+}
 
+img {
+    width: 500px;
+    height: 500px;
+    border: 2px solid yellow
+}
+
+.text {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photo_work {
+    border: 5px solid yellow;
+    margin-top: 0 auto;
+}
+
+.photo_work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.photo h2 {
+    margin-top: 10px;
+}
+
+.map {
+    /* background-color:white; */
+    height: 400px;
+    /* border: 5px solid yellow; */
+    text-align: center;
+}
+
+.footer {
+    color: white;
+    background-color:black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 204px;
+}
